@@ -1,0 +1,22 @@
+/* Global Css Starts */
+.font-manrope {
+    font-family: 'Manrope', sans-serif;
+}
+
+:root {
+    --primary-color: #FF4240;
+    --secondary-color: #131318;
+    --third-color: #13131899;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: var(--secondary-color);
+}
+p{
+    color: var(--third-color);
+}
+.prime-button {
+    background-color: var(--primary-color) !important;
+    color: #FFF !important;
+}
+
+/* Global Css Ends */
