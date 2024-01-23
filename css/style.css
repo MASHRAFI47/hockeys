@@ -17,6 +17,25 @@ p{
 .prime-button {
     background-color: var(--primary-color) !important;
     color: #FFF !important;
+    border: none !important;
+    transition: 0.5s;
 }
-
+.prime-button:hover {
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color) !important;
+}
 /* Global Css Ends */
+
+/* program */
+.program-1 {
+    background: linear-gradient(180deg, #070211a8 0%, rgba(7, 2, 17, 0.276) 100%), url("../Images/2.png");
+}
+.program-2 {
+    background: linear-gradient(180deg, #070211a8 0%, rgba(7, 2, 17, 0.276) 100%), url("../Images/3.png");
+
+}
+.program-3 {
+    background: linear-gradient(180deg, #070211a8 0%, rgba(7, 2, 17, 0.276) 100%), url("../Images/4.png");
+
+}
